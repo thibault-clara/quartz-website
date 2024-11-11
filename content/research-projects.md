@@ -1,11 +1,11 @@
 ---
 title: "Research Projects"
 ---
-### [WaveWings: an Integrated Airborne Wind and Wave Energy Solution](/research-projects/wavewings) <small><i> - Jun 28, 2024 </i></small>
+### [WaveWings: an Integrated Airborne Wind and Wave Energy Solution](/research-projects/bachelor-thesis-wavewings) <small><i> - Jun 28, 2024 </i></small>
 
-### [Prediction of Extreme Events Derived from Latent Space Compression of 2D Kolmogorov Flows](/research-projects/kolmogorov-flows) <small><i> - Feb 1, 2024 </i></small>
+### [Prediction of Extreme Events Derived from Latent Space Compression of 2D Kolmogorov Flows](/research-projects/extreme-events-kolmogorov-flows) <small><i> - Feb 1, 2024 </i></small>
 
-### [Cosmic Reddit Background: Identification of Astronomical Bodies through Reddit [Natural Language Processing]](/research-projects/astronomy) <small><i> - Dec 24, 2023 </i></small>
+### [Cosmic Reddit Background: Identification of Astronomical Bodies through Reddit [Natural Language Processing]](/research-projects/natural-language-processing-astronomy) <small><i> - Dec 24, 2023 </i></small>
 
 <!-- ### [WaveWings: an Integrated Airborne Wind and Wave Energy Solution](/research-projects/bachelor-thesis-wavewings) <small><i> - Jun 28, 2024 </i></small>
 
