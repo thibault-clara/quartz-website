@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "https://www.thibaultclara.com",  // Updated base URL
+    baseUrl: "www.thibaultclara.com", // Update this to match your actual domain
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
@@ -69,13 +69,20 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "absolute" }),  // Updated to absolute
+      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
-      Plugin.AliasRedirects(),
+      Plugin.AliasRedirects({
+        redirects: {
+          "/research-projects/": "/research-projects",
+          "/research-projects/wavewings/": "/research-projects/wavewings",
+          "/research-projects/kolmogorov-flows/": "/research-projects/kolmogorov-flows",
+          "/research-projects/astronomy/": "/research-projects/astronomy",
+        },
+      }),
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
       Plugin.FolderPage(),
