@@ -6,10 +6,11 @@ date: 06-28-2024
 >
 > <a href="https://repository.tudelft.nl/record/uuid:0fa058b7-61b4-40fe-85f7-a686cf0c7425">Full report can be downloaded from the TU Delft Repository.</a>
 
-
 > [!info]- View Poster
 >
-> <div style="display: flex; justify-content: center;"><img src="./images/05_WAVEWINGS_Poster.png" alt="WaveWings Infographic" width="500px"></div>
+> <div style="display: flex; justify-content: center;">
+> <img src="./images/05_WAVEWINGS_Poster.png" alt="WaveWings Infographic" width="500px">
+> </div>
 
 > [!info]- View Presentation on Wave Energy Converter (WEC) Model Pipeline & Sizing Strategy
 >
