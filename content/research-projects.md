@@ -1,5 +1,6 @@
 ---
 title: "Research Projects"
+slug: "/research-projects"
 ---
 ### [WaveWings: an Integrated Airborne Wind and Wave Energy Solution](/research-projects/bachelor-thesis-wavewings) <small><i> - Jun 28, 2024 </i></small>
 

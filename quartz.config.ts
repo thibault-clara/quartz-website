@@ -10,7 +10,7 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "Thibault Clara",
     pageTitleSuffix: "",
-    enableSPA: true,
+    enableSPA: true, // Set to true, but can disable temporarily for testing
     enablePopovers: true,
     analytics: {
       provider: "plausible",
@@ -75,12 +75,16 @@ const config: QuartzConfig = {
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
+      // Generalized redirects for all subpages under `/research-projects`
       Plugin.AliasRedirects({
         redirects: {
-          "/research-projects/": "/research-projects",
-          "/research-projects/wavewings/": "/research-projects/wavewings",
-          "/research-projects/kolmogorov-flows/": "/research-projects/kolmogorov-flows",
-          "/research-projects/astronomy/": "/research-projects/astronomy",
+          "/research-projects/": "/research-projects", // Redirect root with trailing slash to consistent path
+        },
+        dynamicRedirects: (path) => {
+          if (path.startsWith("/research-projects/") && path.endsWith("/")) {
+            return path.slice(0, -1); // Remove trailing slash for all subpages
+          }
+          return null; // No redirect for other paths
         },
       }),
       Plugin.ComponentResources(),
