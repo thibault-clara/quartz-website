@@ -9,9 +9,7 @@ date: 06-28-2024
 
 > [!info]- View Poster
 >
-> <div style="display: flex; justify-content: center;">
-    <img src="./images/05_WAVEWINGS_Poster.png" alt="WaveWings Infographic" width="500px">
-</div>
+> <div style="display: flex; justify-content: center;"><img src="./images/05_WAVEWINGS_Poster.png" alt="WaveWings Infographic" width="500px"></div>
 
 > [!info]- View Presentation on Wave Energy Converter (WEC) Model Pipeline & Sizing Strategy
 >
