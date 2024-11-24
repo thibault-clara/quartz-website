@@ -8,7 +8,7 @@ date: 03/27/2024
 
 By performing a real flight test in TU Delft-NLR's Cessna Citation II (registered as PH-LAB), 5 eigenmodes were modelled using state-space representations and validated against experimental data, namely for short-period, phugoid, aperiodic roll, spiral, and Dutch roll eigenmodes.
 
-In-house Python code development to simulate responses based on initial conditions and plot against real flight data.
+In-house Python code development to simulate responses based on initial conditions and comparative plotting capabilities using real flight data. 
 
 <!-- > [!info]- View Final Presentation
 >
